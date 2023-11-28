@@ -1,0 +1,30 @@
+body
+{
+	margin : auto;
+	background : #f9f9f9;
+	max-width: 800px;
+	width: 80%;
+	
+}
+a:link{
+	color: red;
+}
+/* megtekintett */
+a:visited {
+  color: pink;
+}
+/* egér fölötte */
+a:hover{
+	color: green;
+	text-decoration: none;
+	font-size: 20px;
+}
+/* kattintás pillnatában */
+a:active {
+  color: black;
+}
+img{
+	width: 150px;
+	float: right;
+	margin-right: 10px;
+}
